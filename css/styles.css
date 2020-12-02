@@ -7,6 +7,10 @@
   --accent-color-blue: #2196f3;
 }
 
+/** {
+  border: 1px solid orange;
+}*/
+
 h1,
 h2,
 h3,
@@ -76,6 +80,10 @@ body {
 }
 .header .logo-text {
   margin-right: 93px;
+}
+
+.header {
+  border: 1px solid #ececec;
 }
 /*========= Конец "Логотип" ========*/
 
@@ -283,6 +291,7 @@ body {
 /*==== Конец "Наша команда" ====*/
 
 /*==== "Подвал" ====*/
+
 .footer-address {
   font-weight: normal;
   font-size: 14px;
@@ -335,7 +344,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--secondary-color);
+  color: var(--accent-color);
 }
 
 .projects-text-item {
@@ -349,6 +358,8 @@ body {
 .portfolio .filter {
   display: flex;
   justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 34px;
 }
 
 .filter-list:not(:last-child) {
@@ -359,6 +370,7 @@ body {
   border: 1px;
   background-color: #f5f4fa;
   border-radius: 4px;
+  color: var(--accent-color);
 }
 
 .filter-list-btn:hover,
@@ -375,6 +387,7 @@ body {
 .projects-list {
   margin-right: 30px;
   margin-top: 30px;
+  border: 1px solid #eeeeee;
 }
 .projects-list:nth-child(3n + 3) {
   margin-right: 0px;
