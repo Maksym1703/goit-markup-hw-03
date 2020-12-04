@@ -8,7 +8,7 @@
 }
 
 /** {
-  border: 1px solid orange;
+  outline: 1px solid orange;
 }*/
 
 h1,
@@ -45,12 +45,14 @@ li {
 
 body {
   font-family: var(--main-font);
+  margin: 0px;
 }
 
 .container {
   width: 1200px;
-  margin: 0 auto;
   padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*========= "Логотип" ========*/
@@ -75,23 +77,18 @@ body {
 /*==== Логотип на темном фоне=====*/
 .light-theme {
   color: var(--hero-color);
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 .header .logo-text {
   margin-right: 93px;
 }
 
 .header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 /*========= Конец "Логотип" ========*/
 
 /*==== "Главная навигация" ====*/
-.header {
-  padding-top: 24px;
-  padding-bottom: 26;
-}
-
 .header .container {
   display: flex;
   align-items: center;
@@ -112,8 +109,6 @@ body {
 
 .address-mail {
   margin-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 33px;
 }
 
 .navigation-list {
@@ -198,8 +193,9 @@ body {
 
 .hero {
   background-color: #2f303a;
-  min-width: 1600px;
+  max-width: 1600px;
   height: 600px;
+  margin: auto;
 }
 
 /*==== Конец "Герой" ====*/
@@ -312,8 +308,6 @@ body {
 
 .team {
   background-color: #f5f4fa;
-  min-width: 1600px;
-  height: 648;
 }
 
 /*==== Конец "Наша команда" ====*/
@@ -351,14 +345,16 @@ body {
 }
 
 .logo-text {
-  margin-bottom: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .footer {
   background-color: #2f303a;
-  min-width: 1600px;
-  height: 252px;
   padding-top: 60px;
+  max-width: 1600px;
+  height: 252px;
+  margin: auto;
 }
 /*==== Конец "Подвал" ====*/
 
@@ -434,17 +430,21 @@ body {
 }
 
 .projects-text {
-  margin-top: 20px;
-  padding: 0px 24px 20px 24px;
+  padding: 20px 24px 20px 24px;
 }
 
 .projects-text-item {
-  margin-top: 4px;
-  margin-bottom: 20px;
-  padding: 0px 24px 20px 24px;
+  /*margin-top: 4px;
+  margin-bottom: 20px;*/
+  padding: 4px 24px 20px 24px;
 }
 
 .footer .footer-tel {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
+
+.footer-contact {
+  block-size: 0px;
+}
+
 /*==== Конец Страница "Портфолио" ====*/ ;
