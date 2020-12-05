@@ -80,7 +80,6 @@ body {
 
 .header {
   border-bottom: 1px solid #ececec;
-  padding-top: 24px;
 }
 /*========= Конец "Логотип" ========*/
 
@@ -110,6 +109,13 @@ body {
 .navigation-list {
   display: flex;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 33px;
+}
+
+.address {
+  padding-top: 32px;
+  padding-bottom: 33px;
 }
 
 .navigation-list-link {
