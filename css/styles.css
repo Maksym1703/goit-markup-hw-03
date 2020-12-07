@@ -223,6 +223,9 @@ body {
 .special .special-list {
   display: flex;
   margin: auto;
+}
+
+.special {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -255,6 +258,10 @@ body {
   margin-right: 30px;
 }
 
+.work {
+  padding-bottom: 94px;
+}
+
 /*==== Конец "Вид деятельности" ====*/
 
 /*==== "Наша команда" ====*/
@@ -264,7 +271,6 @@ body {
   line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 94px;
   color: var(--accent-color);
 }
 
@@ -292,7 +298,6 @@ body {
 .team-list {
   display: flex;
   padding-top: 50px;
-  padding-bottom: 94px;
   align-items: center;
 }
 
@@ -308,6 +313,8 @@ body {
 
 .team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /*==== Конец "Наша команда" ====*/
@@ -345,7 +352,6 @@ body {
 
 .footer {
   background-color: #2f303a;
-  max-width: 1600px;
   margin: auto;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -399,8 +405,12 @@ body {
 .portfolio .filter {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
   padding-bottom: 34px;
+}
+
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .filter-list:not(:last-child) {
