@@ -435,7 +435,6 @@ body {
 .projects {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
 }
 
 .projects-list {
