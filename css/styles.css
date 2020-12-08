@@ -6,6 +6,9 @@
   --hero-color: #ffffff;
   --accent-color-blue: #2196f3;
 }
+/** {
+  outline: 1px solid orange;
+}*/
 
 h1,
 h2,
@@ -410,7 +413,6 @@ body {
 
 .portfolio {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .filter-list:not(:last-child) {
